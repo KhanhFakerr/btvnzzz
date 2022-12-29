@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxboxbox{
+    /* border: 2px solid saddlebrown; */
+    margin: auto;
+}
+.boxboxbox:first-child{
+    width: 300px;
+    height: 100px;
+    /* border: 2px solid saddlebrown; */
+    margin-right: 800px;
+    display: flex;
+}
+.boxboxbox:nth-child(2){
+    width: 700px;
+    height: 500px;
+    border: none;
+    display: flex;
+    flex-flow: row; 
+    border-radius: 25px;
+    background: rgb(71, 180, 208);
+}
+.box{
+    width: 300px;
+    height: auto;
+    margin: 40px;
+    display: flex;
+    flex-flow: column;
+    /* justify-content: space-around; */
+}
+.boxs{
+    width: 270px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px green;
+    border: none;
+    margin-top: 22px;
+}
+.boxx{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-flow: column
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    margin-top: 61px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px green;
+    border: none;
+
+}
+.box2{
+    width: 150px;
+    height: 50px;
+    margin-top: 23px;
+    margin-left: 70px;
+    border-radius: 20px;
+    background-color: rgb(148, 250, 216);
+    border: 5px outset rgb(45, 200, 45);
+    box-shadow: 5px 5px 70px rgb(174, 240, 31);
+
+}
+.zone{
+    /* border: 2px solid saddlebrown; */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.slash{
+    /* border: 2px solid saddlebrown; */
+    width: 15px;
+    height: 50px;
+    transform: skew(340deg);
+    background: rgb(145, 25, 45)
+}
+.rectangle{
+    /* border: 2px solid saddlebrown; */
+    width: 300px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 41px;
+    background-color: rgb(9, 109, 177);
+    padding-top: 12px;
+    padding-left: 10px;
+}
+.triangle{
+    margin-top: 41px ;
+    /* border: 2px solid saddlebrown; */
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid rgb(9, 109, 177);
+	border-bottom: 25px solid transparent;
+}
+.word{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.error{
+    color: rgb(200, 25, 25);
+}
+.pro_error{
+  color: rgb(211, 117, 15);
+}
